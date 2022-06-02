@@ -4,7 +4,12 @@
 /* Colors and fonts */
 body {
   background: #ffb949;
+  background: linear-gradient( 180deg, #ffb949, #ffffff);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #14213d;
+  height: 1000px; /* 100% - the background color doesn't fill all the way */
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   font-weight: lighter;
@@ -76,6 +81,22 @@ body {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.list-inline center{
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.btn-blue {
+  background-color: bisque;
+  color: #219ebc;
+  padding: 12px 32px;
+  border-radius: 4px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
 }
 
 /* screen size */
