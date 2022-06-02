@@ -38,6 +38,7 @@ a {
   color: #219ebc;
   font-weight: 600;
   font-size: 20px;
+  opacity: 0.75;
 }
 a:hover {
   color: rgba(0, 0, 0, 0.795);
